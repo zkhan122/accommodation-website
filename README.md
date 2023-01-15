@@ -1,4 +1,7 @@
-# accommodation-website **Work In Progress**
+# accommodation-website 
+
+*Work In Progress*
+
 a simple student accommodation system website I created to experiment with web technologies! 
 
 This system allows a student to register, select an available dormitory and save the student and the connected dorm details 
