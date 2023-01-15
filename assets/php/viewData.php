@@ -126,7 +126,7 @@
 	?>
 	</table>
 
-<table class = "tenantsPerStreet", align="center" border="1px" style="width: 300px; line-height: 30px; margin-top: -250px; margin-left:1300px; font-family: Roboto Mono, monospace">
+<table class = "tenantsPerStreet", align="center" border="1px" style="width: 300px; line-height: 30px; margin-top: -250px; margin-left:1220px; font-family: Roboto Mono, monospace">
 	<tr>
 		<th><h2 style = "color: white">No. Of Tenants</h2></th>
 	</tr>
@@ -150,7 +150,7 @@
 	?>
 	</table>
 
-<table class = "totalTenants", align="center" border="1px" style="width: 100px; line-height: 30px; margin-top: 30px; margin-left:1400px; font-family: Roboto Mono, monospace">
+<table class = "totalTenants", align="center" border="1px" style="width: 100px; line-height: 30px; margin-top: 30px; margin-left:1300px; font-family: Roboto Mono, monospace">
 	<t>
 		<th style = "color: white">total_tenants</th>
 	</t>
@@ -168,6 +168,12 @@
 		}
 	?>
 	</table>
+
+
+<div class = "welcomeReturn">
+	<p style = "color: white; font-family: Roboto Mono, monospace"> Click here to go back to the home page:</p>
+    <p><a href="../../index.php">Home</a></p>
+</div>
 
 </body>
 

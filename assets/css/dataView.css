@@ -275,7 +275,7 @@ a:link {
   }
 
 a:visited {
-    color: pink;
+    color: rgb(64, 255, 0);
     background-color: transparent;
     text-decoration: none;
 }

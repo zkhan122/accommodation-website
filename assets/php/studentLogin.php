@@ -27,7 +27,7 @@
         <h1>
             Student Login
         </h1>
-        <input type = "text" name = "urn" placeholder="Enter URN" id = "URN"> 
+        <input type = "text" name = "urn" placeholder="Enter URN" id = "URN" autocomplete = "off"> 
         <input type = "submit" name = "urn" value = "Login">
     </form>
 

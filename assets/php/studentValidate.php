@@ -29,7 +29,7 @@
     <form  class = "urnInput" action = "../php/studentValidate.php" method="POST">
         <div>
         <label for = "urnID" style = "color: white;">Enter Your URN again and PRESS ENTER: </label>
-        <input type = "text" id="urnID" name="urnID" placeholder="starts with 6 & len=7" maxlength="7" required>
+        <input type = "text" id="urnID" name="urnID" placeholder="starts with 6 & len=7" maxlength="7" autocomplete = "off" required>
         </div>
 </form>
 
