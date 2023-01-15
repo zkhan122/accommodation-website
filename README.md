@@ -1,5 +1,5 @@
 # accommodation-website
-a simple student accommodation system website I created to experiment with web technologies. This system allows a student to register, select an available dormitory and save the student and the connected dorm details 
+a simple student accommodation system website I created to experiment with web technologies! This system allows a student to register, select an available dormitory and save the student and the connected dorm details 
 for that student to a MySQL database which can then be displayed.  
 
 **# Requirements: Apache on port 80, Laragon, MySql**
