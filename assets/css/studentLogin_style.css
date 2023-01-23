@@ -8,7 +8,7 @@ body{
 img.image1 {
     width: 90px;
     height: auto;
-    transform: translate(800%, 700%);
+    transform: translate(800%, 650%);
     position: absolute;
 }
 

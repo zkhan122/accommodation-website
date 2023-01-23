@@ -38,7 +38,7 @@
 <p style = "color: white; font-family: Roboto Mono, monospace"> You can now log in and view your accommodation_details by clicking "Login" on the homepage! </p>
 <p style = "color: white; font-family: Roboto Mono, monospace"> Click here to go back to the home page:</p>
 <div class = "welcomeReturn">
-    <p><a href="../index.php">Home</a></p>
+    <p><a href="../../index.php">Home</a></p>
 </div>
 
 </body>

@@ -12,7 +12,7 @@
     <meta charset="utf-8">
     <title>User Form</title><!-- title of login form-->
     <link rel = "stylesheet" href = "../css/studentLogin_style.css">
-    <script src = "NULL.js"></script>
+    <script src = "loginValidate.php"></script>
 </head>
 
 <div class = x>
@@ -23,13 +23,14 @@
 </div>
 
 <body>
-    <form class="loginBox" action = "./studentValidate.php" method = "POST">
-        <h1>
+    <form class="loginBox" action = "./loginValidate.php" method = "POST">
+        <h1><label for = "studentURN">
             Student Login
-        </h1>
-        <input type = "text" name = "urn" placeholder="Enter URN" id = "URN" autocomplete = "off"> 
+        </label></h1>
+        <input type = "text" id = "studentURN" name = "studentURN" placeholder="Enter URN" autocomplete = "off"> 
         <input type = "submit" name = "urn" value = "Login">
     </form>
+
 
 </body>
     <img class = "image1" src = "../../images/giphy.gif" alt="arrow.gif">
