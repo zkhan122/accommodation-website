@@ -14,4 +14,5 @@ for that student to a MySQL database which can then be displayed.
 directly through `index.php`).
 2) Run the Laragon server and navigate to Laragon MySql terminal 
 3) run db_setup.sql inside the Laragon MySql terminal to create database and populate it with necessary data.
-4) Once done, click the "Web" button on the Laragon portal to go to the website which accesses `index.php` to display home page.
+4) Once done, click the "Web" button on the Laragon portal.
+5) Once on the web click the `accommodation-website/` directory to go to the website which accesses `index.php` to display home page.
