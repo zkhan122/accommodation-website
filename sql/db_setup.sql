@@ -1,5 +1,5 @@
-CREATE DATABASE Coursework;
-USE Coursework;
+CREATE DATABASE Accommodation-System;
+USE Accommodation-System;
 
 CREATE TABLE Accommodation_Preference(
 	AccomPreference_ID INT UNSIGNED NOT NULL AUTO_INCREMENT,
