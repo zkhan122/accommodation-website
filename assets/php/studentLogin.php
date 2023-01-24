@@ -22,6 +22,14 @@
     <div class="stars-04"></div>
 </div>
 
+<div>
+    <body>
+        <p style = "color: white; font-family: Roboto Mono, monospace; text-decoration: underline">On login failure you will be directed to the homepage<p> 
+    </body>
+</div>
+
+
+<div>
 <body>
     <form class="loginBox" action = "./loginValidate.php" method = "POST">
         <h1><label for = "studentURN">
@@ -31,8 +39,8 @@
         <input type = "submit" name = "urn" value = "Login">
     </form>
 
-
-</body>
     <img class = "image1" src = "../../images/giphy.gif" alt="arrow.gif">
+</body>
+</div>
 
 </html>

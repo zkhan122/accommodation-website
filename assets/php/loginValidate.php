@@ -1,4 +1,7 @@
 <?php
+
+    session_start();
+    
     include_once("./db_connect.php"); // attempt to use the db_connect.php file to connect to sql db
     $con = mysqli_connect("localhost", "root", "", "coursework"); // use parameters given in db_connect.php
     if($con === false){
@@ -6,6 +9,8 @@
     }	
 
     $urnID = $_POST["studentURN"];
+
+    $_SESSION["urnID"] = $urnID;
 
     $urnStore = array();
 
@@ -17,9 +22,11 @@
 
     if ($row != 0) {
         echo "URN FOUND";
-        header("Location: ../php/studentValidated.php");
+        header("Location: ./studentLoggedIn.php");
+        exit();
     } else {
         header("Location: ../../index.php");
+        exit();
     }
     
 ?>

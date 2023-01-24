@@ -7,7 +7,7 @@
 <head>
     <meta charset="utf-8">
     <title>User Form</title><!-- title of login form-->
-    <link rel = "stylesheet" href = "./assets/css/studentLogin_style.css">
+    <link rel = "stylesheet" href = "../css/studentLogin_style.css">
     <script src = "NULL.js"></script>
 </head>
 
@@ -23,7 +23,7 @@
     <p class = "loggedInText"> Click link below to continue: </p>
 
     <div class = "studentLoggedIn">
-    <p><a href="./studentDisplayView.php">Click!</a></p>
+    <p><a href="./studentValidated.php">Click!</a></p>
     </div>
 
 
