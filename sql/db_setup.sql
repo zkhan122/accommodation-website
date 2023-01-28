@@ -1,5 +1,5 @@
-CREATE DATABASE Accommodation-System;
-USE Accommodation-System;
+CREATE DATABASE Accommodation;
+USE Accommodation;
 
 CREATE TABLE Accommodation_Preference(
 	AccomPreference_ID INT UNSIGNED NOT NULL AUTO_INCREMENT,

@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "root";
 $password = ""; 
-$dbname = "coursework"; #you need to replace this with the name of your database
+$dbname = "accommodation"; #you need to replace this with the name of your database
 $port = "3306"; # do not remove this - it is being used to automatically run the script
 
 // Create a connection to MySQL

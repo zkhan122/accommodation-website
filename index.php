@@ -1,6 +1,6 @@
 <?php
 	include_once("./assets/php/db_connect.php"); // attempt to use the db_connect.php file to connect to sql db
-	$con = mysqli_connect("localhost", "root", "", "coursework"); // use parameters given in db_connect.php
+	$con = mysqli_connect("localhost", "root", "", "accommodation"); // use parameters given in db_connect.php
 	if($con === false) { // if the connection is unsuccessful
         die("ERROR: Could not connect to MySQL database. "); // end attempt to connect
     } else {

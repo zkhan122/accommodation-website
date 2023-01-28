@@ -19,11 +19,11 @@
 </div>
 
 <body>
-    <p class = "loggedInText"> You have succesfully logged in: </p>
-    <p class = "loggedInText"> Click link below to continue: </p>
+    <p class = "loggedInText" style = "font-size: 30px;"> You have succesfully logged in: </p>
+    <p class = "loggedInText" style = "font-size: 30px;"> Click link below to continue: </p>
 
     <div class = "studentLoggedIn">
-    <p><a href="./studentValidated.php">Click!</a></p>
+    <p style = "font-size: 30px;"><a href="./studentValidated.php">Click!</a></p>
     </div>
 
 

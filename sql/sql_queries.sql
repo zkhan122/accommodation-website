@@ -1,4 +1,4 @@
-USE Accommodation-System;
+USE Accommodation;
 
 -- query to return names of all tenants -- 
 SELECT CONCAT(Forename, SPACE(1), Surname) AS Tenants_List FROM Tenant;

@@ -1,6 +1,6 @@
 <?php
 	include_once("./db_connect.php"); // attempt to use the db_connect.php file to connect to sql db
-	$con = mysqli_connect("localhost", "root", "", "coursework"); // use parameters given in db_connect.php
+	$con = mysqli_connect("localhost", "root", "", "accommodation"); // use parameters given in db_connect.php
 	if($con === false){
         die("ERROR: Could not connect. ");
     }	
@@ -79,12 +79,16 @@
                 mysqli_free_result($result); // and if so, free the result (query data) to not use up memory for a null result
             }
         ?>
-        </table>
+        </table>    
         </div>
         </span>
 
-
-    
+    <div>
+	    <p style = "color: white; font-family: Roboto Mono, monospace"> Click here to go back to the home page:</p>
+    </div>      
+    <div>
+        <p style = "font-size: 20px; a:link: color: rgb(64, 255, 0), background-color: transparent, text-decoration: underline;"><a href="../../index.php">Home</a></p>
+    </div>
 </body>
 
 </html>
